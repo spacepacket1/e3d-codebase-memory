@@ -1,0 +1,27 @@
+{
+  "databasePath": "./data/codebase.db",
+  "projects": [
+    {
+      "projectId": "e3d-core",
+      "repoRoot": "/Users/cbloom/spacepacket"
+    },
+    {
+      "projectId": "e3d-agents",
+      "repoRoot": "/Users/cbloom/e3d-agent-trading-floor"
+    }
+  ],
+  "ignore": [
+    "node_modules",
+    ".git",
+    "dist",
+    "build",
+    ".next",
+    "coverage",
+    "*.log",
+    "*.log.*",
+    "pdf_exports",
+    "codebase.db",
+    "codebase.db-shm",
+    "codebase.db-wal"
+  ]
+}

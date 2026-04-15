@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Secrets — never commit
+.env
+
+# Database (local index, not committed)
+data/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/

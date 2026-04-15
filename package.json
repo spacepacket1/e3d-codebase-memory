@@ -1,0 +1,22 @@
+{
+  "name": "e3d-codebase-memory",
+  "version": "1.0.0",
+  "private": true,
+  "description": "E3D local codebase memory engine — indexes spacepacket and e3d-agent-trading-floor for Claude",
+  "main": "src/cli.js",
+  "scripts": {
+    "scan": "node src/cli.js scan",
+    "query": "node src/cli.js query",
+    "prep": "node src/cli.js prep",
+    "ask": "node src/cli.js ask",
+    "mcp": "node src/mcp/server.js",
+    "watch": "node src/cli.js watch"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.15.1",
+    "better-sqlite3": "^11.8.1"
+  }
+}
